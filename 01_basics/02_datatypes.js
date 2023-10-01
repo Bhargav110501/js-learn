@@ -49,6 +49,7 @@ console.log(name);
 console.log(greeting);
 console.log(multilineString);
  // Example of a String
+
 /*
 Boolean: Represents either true or false.
 */
@@ -57,17 +58,20 @@ let isWorking = false;
 console.log(isStudent);
 console.log(isWorking);
 // Example of a Boolean
+
 /*
 Undefined: Represents a variable that has been declared but not assigned a value.
 */
 let job;
 console.log(job); // Output: undefined
 // Example of Undefined
+
 /*
 Null: Represents an intentional absence of any object or value.
 */
 let car = null;
 console.log(car); // Example of Null
+
 /*
 Symbol (ES6): Represents a unique and immutable value, often used as object property keys.
 */
@@ -75,11 +79,14 @@ const uniqueSymbol = Symbol("description");
 const anotherSymbol = Symbol("description");
 console.log(uniqueSymbol === anotherSymbol); // Output: false (symbols are always unique)
  // Example of a Symbol
+ 
 /*
 BigInt (ES11): Represents arbitrary-precision integers, used for very large numbers.
 */
 const bigNumber = 1234567890123456789012345678901234567890n; 
 console.log(bigNumber);// Example of a BigInt
+
+
 /*
 2) Composite Data Types:
 These data types can hold multiple values and are sometimes called reference types:
@@ -93,11 +100,13 @@ const person = {
   }; 
   console.log(person);
   // Example of an Object
+
 /*
 Array: Represents an ordered list of values and is a specialized type of object.
 */  
 const numbers = [1, 2, 3, 4, 5];
 console.log(numbers); // Example of an Array
+
 /*
 Function: Represents a reusable block of code that can be executed.
 */
@@ -107,6 +116,8 @@ function greet(name) {
   
   greet("Alice"); // Output: Hello, Alice!
    // Example of a Function
+
+
 /*
 3) Special Data Types:
 
@@ -115,6 +126,7 @@ NaN (Not-a-Number): Represents a value that is not a valid number.
 let result = "hello" / 2; 
 console.log(result); // Output: NaN
 // Example of NaN
+
 /*
 Infinity and -Infinity: Represent positive and negative infinity, respectively.
 */
@@ -137,4 +149,3 @@ JavaScript's dynamic typing allows variables to change their data type during ru
 */
 let value = 42; // Number
 value = "Hello"; // String (dynamic typing)
-//
