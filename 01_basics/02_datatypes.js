@@ -137,3 +137,4 @@ JavaScript's dynamic typing allows variables to change their data type during ru
 */
 let value = 42; // Number
 value = "Hello"; // String (dynamic typing)
+//
