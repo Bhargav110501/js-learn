@@ -41,4 +41,4 @@ function exampleVarScope() {
     }
     console.log(z); // Outputs 10
   }
-  
+//
