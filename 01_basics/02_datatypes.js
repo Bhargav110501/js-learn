@@ -141,7 +141,6 @@ Primitive Wrappers (e.g., String, Number, Boolean): JavaScript provides object w
 let str = "Hello, World!";
 let strLength = str.length; // Accessing the length property of a string using a primitive wrapper
 console.log(strLength); // Output: 13
-
 // Example of using a primitive wrapper
 
 /*
