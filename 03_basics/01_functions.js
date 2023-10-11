@@ -118,3 +118,9 @@ function returnSecondValue(getArray){
 
 // console.log(returnSecondValue(myNewArray)); // 400
 console.log(returnSecondValue([200, 300, 500, 1000])); // 300
+
+
+
+
+
+
